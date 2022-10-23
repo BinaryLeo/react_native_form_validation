@@ -1,5 +1,6 @@
 import { VStack, Heading, Center } from "native-base";
 import { Input } from "../components/Input";
+import { Button } from "../components/Button";
 export function SignUp() {
   return (
     <VStack bgColor="gray.200" flex={1} px={10}>
@@ -11,6 +12,7 @@ export function SignUp() {
         <Input placeholder="E-mail" />
         <Input placeholder="Password" />
         <Input placeholder="Confirm password" />
+        <Button title="SignUp"/>
       </Center>
     </VStack>
   );
