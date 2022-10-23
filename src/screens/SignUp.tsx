@@ -9,9 +9,9 @@ export function SignUp() {
           Create your account
         </Heading>
         <Input placeholder="Name" />
-        <Input placeholder="E-mail" />
-        <Input placeholder="Password" />
-        <Input placeholder="Confirm password" />
+        <Input placeholder="E-mail" ErrorMessage="Insert your e-mail"/>
+        <Input placeholder="Password" ErrorMessage="Insert your password"/>
+        <Input placeholder="Confirm password" ErrorMessage="Password does not match"/>
         <Button title="SignUp"/>
       </Center>
     </VStack>

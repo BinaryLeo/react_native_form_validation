@@ -4,8 +4,14 @@ type ButtonProps = IButtonProps & {
 };
 export function Button({ title, ...rest }: ButtonProps) {
   return (
-    <FormButton {...rest}>
-      <Text>{title}</Text>
+    <FormButton {...rest}
+     w={"full"}
+     h={16}
+     bg={"cyan.800"}
+     borderRadius={5}
+     _pressed={{bgColor:"blueGray.600"}}
+     >
+      <Text color={"white"}>{title}</Text>
     </FormButton>
   );
 }
