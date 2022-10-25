@@ -8,11 +8,11 @@ export function Input({ErrorMessage = null, isInvalid,...rest}:InputProps){
     return(
 <FormControl mb={4} isInvalid={invalid}>
 <NativBaseInput
-bg={"gray.700"}
+bg={"gray.200"}
 fontSize={"md"}
 h={16}
 isInvalid={invalid}
-_focus={{bg:"gray.200"}}
+_focus={{bg:"gray.300"}}
 {...rest}
 />
 <FormControl.ErrorMessage>
